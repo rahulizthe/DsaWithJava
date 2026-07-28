@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Functions4 {
     public static void CalculateFactorial(int a){
+        //checking for invalid numbers
+        if(i<0){
+            System.out.println("Invalid Number");
+            return;
+        }
         //loop
         int factorial = 1;
         for(int i=a;i>=1;i--){
