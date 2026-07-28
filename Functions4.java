@@ -9,7 +9,7 @@ public class Functions4 {
         for(int i=a;i>=1;i--){
             factorial = factorial*i;
         }
-        System.out.println("The facctorial of the number is: "+factorial);
+        System.out.println("The factorial of the number is: "+factorial);
         return;
     }
     
