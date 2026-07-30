@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Functions4 {
     public static void CalculateFactorial(int a){
         //checking for invalid numbers
-        if(i<0){
+        if(a<0){
             System.out.println("Invalid Number");
             return;
         }
         //loop
         int factorial = 1;
-        for(int i=a;i>=1;i--){
-            factorial = factorial*i;
+        for(int i1=a;i1>=1;i1--){
+            factorial = factorial*i1;
         }
         System.out.println("The factorial of the number is: "+factorial);
         return;
