@@ -2,7 +2,9 @@
 public class Pattern4 {
     public static void main(String args[]){
         int n=5;
+        //here loop is going from i=n to 1
         for(int i=n;i>=1;i--){
+            //here lopps goes from j=1 to n
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }System.out.println(" ");
