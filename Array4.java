@@ -1,6 +1,6 @@
 import java.util.*;
 //Printing the Maximum number and Minimum number from an array.
-public class Arrays {
+public class Array4 {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter the size of an array: ");
