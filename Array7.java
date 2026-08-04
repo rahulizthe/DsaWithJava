@@ -18,8 +18,10 @@ public class Array7 {
                 System.out.print("enter the number for row " + (i+1) + " and column " + (j+1) + ": ");
                 numbers[i][j] = sc.nextInt();
             }
+;
         }
         //output
+        System.out.println("here are the number in the 2D array: ");
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 System.out.print(numbers[i][j] + " ");
