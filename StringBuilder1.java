@@ -10,8 +10,12 @@ public class StringBuilder1 {
         sb.setCharAt(0, 'p');
         System.out.println(sb);
 
-        //method 3 - inserting an element 
+        //method 3 - inserting an index value 
         sb.insert(0,'S');
+        System.out.println(sb);
+
+        //method 4 - deleting an index value 
+        sb.delete(0,1);
         System.out.println(sb);
     }
 }
