@@ -17,5 +17,10 @@ public class StringBuilder1 {
         //method 4 - deleting an index value 
         sb.delete(0,1);
         System.out.println(sb);
-    }
+
+        //method 5
+        sb.append(" Stark");
+        System.out.println(sb);
+
+        }
 }
