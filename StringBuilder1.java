@@ -19,8 +19,12 @@ public class StringBuilder1 {
         System.out.println(sb);
 
         //method 5
-        sb.append(" Stark");
-        System.out.println(sb);
+        StringBuilder sb1 = new StringBuilder("h");
+        sb1.append('e');
+        sb1.append('l');
+        sb1.append('l');
+        sb1.append('o');
+        System.out.println(sb1);
 
         }
 }
