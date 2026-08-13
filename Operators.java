@@ -12,7 +12,7 @@ public class Operators {
             System.out.println("good");
         }
         //3
-        if( a!=5 && b!=10){
+        if( !(a!=5 && b!=10)){
             System.out.println("good");
         }
     }
