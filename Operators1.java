@@ -26,5 +26,10 @@ public class Operators1 {
         //2 
         System.out.println(b--);//means b-1
 
+        int c = 10;
+        c += 5;       // Equivalent to c = c + 5; (c becomes 15)
+        c--;          // Decrement by 1 (c becomes 14)
+        boolean z = !true; // Logical complement: false     
+
     }
 }
